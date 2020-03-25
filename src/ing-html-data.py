@@ -82,11 +82,10 @@ def download_html(semesters, directory, file_name):
 
 def main():
     semester_list = build_semester_list()
-    semester_test = semester_list[:1]
 
     directory = os.path.join('..','data','html-data')
     file_name = 'gmu-semester-html.pickle'
-    download_html(semesters=semester_test, directory=directory, file_name=file_name)
+    download_html(semesters=semester_list, directory=directory, file_name=file_name)
 
 if __name__ == '__main__':
     main()
