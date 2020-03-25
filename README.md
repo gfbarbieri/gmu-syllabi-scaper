@@ -2,7 +2,7 @@
 Web scraping George Mason University's Department of Economics website for all course syllabi.
 
 ### Author:
-Greg Barbieri - (gfbarbieri)[https://github.com/gfbarbieri]
+Greg Barbieri - [gfbarbieri](https://github.com/gfbarbieri)
 
 ## Description
 The goal of this project is to obtain the syllabi for courses offered in the Economics Department at George Mason University.
@@ -13,4 +13,4 @@ notebooks: The final notebook covering all the functions needed--mostly a sandbo
 src: Ingestion and wrangling Python program files.
 
 ## Data Sources
-HTML Data is pulled from George Mason University, (Economics Department)[https://economics.gmu.edu]
+HTML Data is pulled from George Mason University, [Economics Department](https://economics.gmu.edu)
