@@ -1,16 +1,20 @@
-# Web Scraping Course syllabi
-Web scraping George Mason University's Department of Economics website for all course syllabi.
+# Web Scraping Course Syllabi
+
+## Project Overview
+This repo contains code that web scrapes the George Mason University [Department of Economics](https://economics.gmu.edu/course_sections) website for all posted course syllabi.
+
+Permission to scrape the website was not obtained.
 
 ### Author:
 Greg Barbieri - [gfbarbieri](https://github.com/gfbarbieri)
 
-## Description
-The goal of this project is to obtain the syllabi for courses offered in the Economics Department at George Mason University.
+### Contents
+See Scrape_GMU_Notebook.ipynb.
 
-### Folder Organization
-**data:** Data resulting from ingestion and wrangling process. The data ingested are the HTML for all of the courses listed for the semesters available on the Economics Department's course and syllabi website. The HTML is a dictionary, output as a Pickle file, which has the semester, the page URL, and course page contents as a Request object. The result of the wrangling process are course syllabi for each course where a syllabus was posted.  
-**notebooks:** The final notebook covering all the functions needed--mostly a sandbox.  
-**src:** Ingestion and wrangling Python program files.
+1. Find the current and historical semesters.
+2. For each semester, download the HTML data.
+3. Parse the HTML data and extract PDFs.
+4. Download the PDFs.
 
 ## Data Sources
-HTML Data is pulled from George Mason University, [Economics Department](https://economics.gmu.edu)
+All data is pulled from the from George Mason University, [Economics Department](https://economics.gmu.edu).
