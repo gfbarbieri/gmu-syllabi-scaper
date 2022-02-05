@@ -9,7 +9,7 @@ Permission to scrape the website was not obtained.
 Greg Barbieri - [gfbarbieri](https://github.com/gfbarbieri)
 
 ### Contents
-See Scrape_GMU_Notebook.ipynb.
+See Scrape_GMU_Notebook.ipynb. Data is *exclude* from the results. If you are interested in the list of syllabi for whatever reason, feel free to email me.
 
 1. Find the current and historical semesters.
 2. For each semester, download the HTML data.
