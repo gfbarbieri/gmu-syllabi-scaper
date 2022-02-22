@@ -1,6 +1,6 @@
 # Web Scraping Course Syllabi
 
-## Project Overview
+### Project Overview
 This repository contains code that web scrapes the George Mason University [Department of Economics](https://economics.gmu.edu/course_sections) website for all posted course syllabi.
 
 Permission to scrape the website was not obtained.
@@ -18,5 +18,5 @@ See Scrape_GMU_Notebook.ipynb.
 
 Data are *exclude* from the repository. If you are interested in the list of syllabi for whatever reason, feel free to email me.
 
-## Data Sources
+### Data Sources
 All data is pulled from the from George Mason University, [Economics Department](https://economics.gmu.edu).
