@@ -1,22 +1,36 @@
-# Web Scraping Course Syllabi
+# GMU Economics Syllabi Scraper
 
-### Project Overview
-This repository contains code that web scrapes the George Mason University [Department of Economics website](https://economics.gmu.edu/course_sections) for course syllabi.
+This project provides a toolset for download course syllabi from the GMU economics course catalog. This scraper extracts course and section details, with which the syllabus can be downloaded for each course offered. The entire course catalog and those courses with a syllabus linked are downloaded.
 
-_Disclaimer: I did not obtain premission from the origanization to webscrape or otherwise use their data._
+*Disclaimer*: No permissions were granted by the organization to scrape or otherwise use their data.
 
-### Author:
-Greg Barbieri - [gfbarbieri](https://github.com/gfbarbieri)
+## Table of Contents
+- [Installation](#installation)
+- [How to Use](#how-to-use)
+- [License](#license)
 
-### Contents
-See [Scrape_GMU_Notebook.ipynb](src/Scape_GMU_Notebook.ipynb).
+## Installation
 
-1. Find a list of the semesters available with syllabi. The website organizes course lists and syllabi by semester.
-2. For each semester, download the course list HTML.
-3. Parse the HTML and extract syllabi (PDFs).
-4. Download the syllabi (PDFs).
+Clone repository: ``git clone https://github.com/gfbarbieri/<project>.git``
 
-Data are *excluded* from the repository. If you are interested in the syllabi for whatever reason, then either run the code or contact me.
+Check requirements: ``put requirements.txt here``
 
-### Data Sources
-Data is from the George Mason University [Economics Department website](https://economics.gmu.edu).
+## How to Use
+
+#### Example: Find all available semesters.
+```python
+```
+
+#### Example: Obtain GMU Economics course catalog.
+```python
+```
+
+#### Example: Obtain the sections offered for each course.
+```python
+```
+
+#### Example: Download the syllabus for each course.
+```python
+```
+
+## License
